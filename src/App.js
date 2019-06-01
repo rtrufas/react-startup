@@ -1,16 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Switch, Route, Redirect } from "react-router-dom";
+import "./App.scss";
+import HeaderContainer from "./Components/Header/HeaderContainer";
+import Home from "./Pages/Home/Home";
+import Contacts from "./Pages/Contacts/Contacts";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <div className='bibiclass'>bibi</div>
-
-      </header>
-    </div>
+    <>
+      <HeaderContainer />
+      <Switch>
+        <Route exact path="/" render={() => <Redirect to="/home" />} />{" "}
+        <Route path="/home" component={Home} />
+        <Route path="/contacts" component={Contacts} />
+        <Route path="*" render={() => <div> 404 </div>} />
+      </Switch>{" "}
+    </>
   );
 }
 

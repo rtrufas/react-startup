@@ -1,0 +1,29 @@
+.header {
+  margin-bottom: 40px;
+  &-title {
+    padding-right: 30px;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  &-navigation {
+    .nav-link {
+      padding: 23px 23px 20px 23px;
+      border-bottom: 3px solid transparent;
+      color: white;
+      text-decoration: initial;
+      border-right: 1px solid darkblue;
+      &:first-of-type {
+        border-left: 1px solid darkblue;
+      }
+      &:hover {
+        border-bottom-color: darkblue;
+      }
+      &-active {
+        border-bottom-color: white;
+      }
+    }
+  }
+}
