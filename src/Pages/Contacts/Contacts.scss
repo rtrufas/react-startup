@@ -1,5 +1,25 @@
 .contacts-page {
-  color: green;
   width: 960px;
   margin: 0px auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+  &__left,
+  &__right {
+    ul {
+      li {
+        line-height: 16px;
+      }
+    }
+  }
+
+  &__maps,
+  &__maps3d {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

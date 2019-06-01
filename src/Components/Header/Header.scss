@@ -1,5 +1,6 @@
 .header {
   margin-bottom: 40px;
+  background-color: #00395d !important;
   &-title {
     padding-right: 30px;
     a {
@@ -14,12 +15,12 @@
       border-bottom: 3px solid transparent;
       color: white;
       text-decoration: initial;
-      border-right: 1px solid darkblue;
+      border-right: 1px solid black;
       &:first-of-type {
-        border-left: 1px solid darkblue;
+        border-left: 1px solid black;
       }
       &:hover {
-        border-bottom-color: darkblue;
+        border-bottom-color: black;
       }
       &-active {
         border-bottom-color: white;
