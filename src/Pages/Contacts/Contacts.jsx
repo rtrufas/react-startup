@@ -6,7 +6,10 @@ export default class Contacts extends React.Component {
     return (
       <div className="contacts-page">
         <div className="contacts-page__left">
-          <h1>Informatii Contact</h1>
+          <h1>
+            Pentru orice informatii solicitate va stam la dispozitie,
+            contactati-ne prin urmatoarele mijloace.
+          </h1>
           <ul>
             <li>
               <span>Str. Paunescu Podeanu Nr. 144 Timisoara, Romania</span>

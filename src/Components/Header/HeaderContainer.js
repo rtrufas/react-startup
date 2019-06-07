@@ -10,12 +10,20 @@ class HeaderContainer extends Component {
       titleUrl: "/",
       links: [
         {
-          label: "Home",
-          url: "/Home"
+          label: "Acasa",
+          url: "/acasa"
         },
         {
-          label: "Contacts",
-          url: "/contacts"
+          label: "Informatii Elevi",
+          url: "/informatii-elevi"
+        },
+        {
+          label: "Anunturi",
+          url: "/anunturi"
+        },
+        {
+          label: "Contact",
+          url: "/contact"
         }
       ]
     };

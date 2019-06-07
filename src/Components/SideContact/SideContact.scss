@@ -1,0 +1,24 @@
+.side-contact {
+  position: fixed;
+  width: 250px;
+  right: 25px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-color: #005572;
+  height: 220px;
+  border-radius: 25px;
+  padding: 25px;
+  color: white;
+  .title {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .row {
+    display: block;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    border-bottom: 1px solid white;
+  }
+}

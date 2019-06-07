@@ -2,17 +2,23 @@ import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import "./App.scss";
 import HeaderContainer from "./Components/Header/HeaderContainer";
+import SideContact from "./Components/SideContact/SideContact";
 import Home from "./Pages/Home/Home";
+import StudentInfo from "./Pages/StudentInfo/StudentInfo";
+import Anunturi from "./Pages/Anunturi/Anunturi";
 import Contacts from "./Pages/Contacts/Contacts";
 
 function App() {
   return (
     <>
       <HeaderContainer />
+      <SideContact />
       <Switch>
-        <Route exact path="/" render={() => <Redirect to="/home" />} />{" "}
-        <Route path="/home" component={Home} />
-        <Route path="/contacts" component={Contacts} />
+        <Route exact path="/" render={() => <Redirect to="/acasa" />} />{" "}
+        <Route path="/acasa" component={Home} />
+        <Route path="/informatii-elevi" component={StudentInfo} />
+        <Route path="/anunturi" component={Anunturi} />
+        <Route path="/contact" component={Contacts} />
         <Route path="*" render={() => <div> 404 </div>} />
       </Switch>{" "}
     </>
