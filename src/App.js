@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import "./App.scss";
 import HeaderContainer from "./Components/Header/HeaderContainer";
-import SideContact from "./Components/SideContact/SideContact";
+import FooterContact from "./Components/FooterContact/FooterContact";
 import Home from "./Pages/Home/Home";
 import StudentInfo from "./Pages/StudentInfo/StudentInfo";
 import Anunturi from "./Pages/Anunturi/Anunturi";
@@ -12,7 +12,6 @@ function App() {
   return (
     <>
       <HeaderContainer />
-      <SideContact />
       <Switch>
         <Route exact path="/" render={() => <Redirect to="/acasa" />} />{" "}
         <Route path="/acasa" component={Home} />
@@ -21,6 +20,7 @@ function App() {
         <Route path="/contact" component={Contacts} />
         <Route path="*" render={() => <div> 404 </div>} />
       </Switch>{" "}
+      <FooterContact />
     </>
   );
 }

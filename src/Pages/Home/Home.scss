@@ -2,5 +2,26 @@
   width: 960px;
   margin: 0px auto;
   height: 100%;
-  padding: 20px;
+  padding: 20px 20px 250px 20px;
+
+  p {
+    margin: 10px 0;
+  }
+
+  ul {
+    margin: 10px 0;
+    list-style: disc;
+  }
+
+  &__text-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .left,
+    .right {
+      width: 50%;
+      margin: 5px;
+    }
+  }
 }
