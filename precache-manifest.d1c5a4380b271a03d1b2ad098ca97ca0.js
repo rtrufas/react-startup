@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d5d302029b918f30a1857abb6ab7b278",
+    "revision": "c79e257200cf1608165552c877ce193e",
     "url": "https://rtrufas.github.io/react-startup/index.html"
   },
   {
-    "revision": "03e29326acbab8ea932c",
+    "revision": "ac903b288f47abcc07db",
     "url": "https://rtrufas.github.io/react-startup/static/css/main.12755d91.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://rtrufas.github.io/react-startup/static/js/2.9b7aa11c.chunk.js"
   },
   {
-    "revision": "03e29326acbab8ea932c",
-    "url": "https://rtrufas.github.io/react-startup/static/js/main.5eea51b2.chunk.js"
+    "revision": "ac903b288f47abcc07db",
+    "url": "https://rtrufas.github.io/react-startup/static/js/main.76e02ddd.chunk.js"
   },
   {
     "revision": "2b3fa36eded646d05581",
