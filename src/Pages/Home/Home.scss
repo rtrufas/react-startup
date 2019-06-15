@@ -24,12 +24,11 @@
       margin: 5px;
     }
   }
-  &__imagini-container{
-    display:flex;
+  &__imagini-container {
+    display: flex;
     justify-content: space-between;
-    .cladire{
-    border:1px solid gray;
+    .cladire {
+      border: 1px solid gray;
+    }
   }
-  }
-  
 }
