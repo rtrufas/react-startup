@@ -33,7 +33,7 @@ export default class Anunturi extends React.Component {
             La final va avea loc Targul de ştiinţe de la Slavici cu premii
             pentru toţi participanţii!{" "}
           </p>
-
+<p><b>Bacalaureat</b></p>
           <ul>
             <li>
               BAC 2019 – REZULTATE – Proba C) de evaluare a competenţelor
@@ -67,7 +67,7 @@ export default class Anunturi extends React.Component {
             </li>
           </ul>
         </div>
-
+<p><b>Slavici te provoasa sa citesti!</b></p>
         <p>
           Scaneazã codul de bare.Citeşte o carte din biblioteca aleasã, apoi
           acordã-i un calificativ.Ce lecturã a fost mai interesantã?

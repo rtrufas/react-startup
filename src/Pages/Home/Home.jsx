@@ -1,6 +1,8 @@
 import React from "react";
 import "./Home.scss";
 import cladire from "../../Assets/Images/cladire.jpg";
+import admitere from "../../Assets/Images/admitere.jpg";
+import logo_liceu from "../../Assets/Images/logo_liceu.jpg";
 
 export default class Home extends React.Component {
   render() {
@@ -18,8 +20,8 @@ export default class Home extends React.Component {
 
         <div className="home-page__imagini-container">
           <img src={cladire} alt="cladire" className="poze-home" />
-          <img src={cladire} alt="poza2nume" className="poze-home" />
-          <img src={cladire} alt="poza3nume" className="poze-home" />
+          <img src={admitere} alt="admitere" className="poze-home" />
+          <img src={logo_liceu} alt="logo_liceu" className="poze-home" />
         </div>
 
         <div className="home-page__text-container">
