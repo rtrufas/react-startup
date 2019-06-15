@@ -7,7 +7,7 @@ class HeaderContainer extends Component {
 
     this.state = {
       title: "React Start-up",
-      titleUrl: process.env.PUBLIC_URL + "/",
+      titleUrl: "/",
       links: [
         {
           label: "Acasa",

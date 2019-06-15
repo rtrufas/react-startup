@@ -17,6 +17,7 @@ function App() {
           path={process.env.PUBLIC_URL + "/"}
           render={() => <Redirect to="/acasa" />}
         />
+        <Route path="/react-startup" component={Home} />
         <Route path="/acasa" component={Home} />
         <Route path="/informatii-elevi" component={StudentInfo} />
         <Route path="/anunturi" component={Anunturi} />
