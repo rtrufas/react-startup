@@ -7,15 +7,19 @@ export default class FooterContact extends React.Component {
       <div className="contact-container">
         <div className="contact-left">
           <div className="title">Contact</div>
-          <a href="http://cjextm.ro/" className="row">
-            aaa
+          <a href="mailto: secretariat@islavici.ro" className="row">
+            Adresa email
+  
           </a>
-          <a href="http://cjextm.ro/" className="row">
-            bbb
-          </a>
-          <a href="http://cjextm.ro/" className="row">
-            ccc
-          </a>
+          <div className="row">
+            <div>Tel:+40 (256) 213 108</div>
+            <div>Tel: +40 (745) 521 710</div>
+          </div>
+
+          <div className="row"> 
+          Str. Paunescu Podeanu Nr. 144 Timisoara, Romania
+            
+          </div>
         </div>
 
         <div className="contact-right">
