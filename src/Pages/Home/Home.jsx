@@ -17,9 +17,9 @@ export default class Home extends React.Component {
         </h1>
 
         <div className="home-page__imagini-container">
-          <img src={cladire} alt="cladire" className="cladire" />
-          <img src={cladire} alt="cladire" className="cladire" />
-          <img src={cladire} alt="cladire" className="cladire" />
+          <img src={cladire} alt="cladire" className="poze-home" />
+          <img src={cladire} alt="poza2nume" className="poze-home" />
+          <img src={cladire} alt="poza3nume" className="poze-home" />
         </div>
 
         <div className="home-page__text-container">
