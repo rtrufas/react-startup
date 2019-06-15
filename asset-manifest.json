@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/acasa/static/css/main.70898b30.chunk.css",
-    "main.js": "/acasa/static/js/main.056758c3.chunk.js",
-    "main.js.map": "/acasa/static/js/main.056758c3.chunk.js.map",
-    "runtime~main.js": "/acasa/static/js/runtime~main.89e73c8e.js",
-    "runtime~main.js.map": "/acasa/static/js/runtime~main.89e73c8e.js.map",
-    "static/js/2.9b7aa11c.chunk.js": "/acasa/static/js/2.9b7aa11c.chunk.js",
-    "static/js/2.9b7aa11c.chunk.js.map": "/acasa/static/js/2.9b7aa11c.chunk.js.map",
-    "index.html": "/acasa/index.html",
-    "precache-manifest.717d26a4a2e5636cb9f2408deb1d2455.js": "/acasa/precache-manifest.717d26a4a2e5636cb9f2408deb1d2455.js",
-    "service-worker.js": "/acasa/service-worker.js",
-    "static/css/main.70898b30.chunk.css.map": "/acasa/static/css/main.70898b30.chunk.css.map",
-    "static/media/admitere.jpg": "/acasa/static/media/admitere.e03c595b.jpg",
-    "static/media/index.css": "/acasa/static/media/bgbody.5118b508.jpg",
-    "static/media/frame.png": "/acasa/static/media/frame.1c861c1d.png"
+    "main.css": "/react-startup/static/css/main.b782a6c3.chunk.css",
+    "main.js": "/react-startup/static/js/main.056758c3.chunk.js",
+    "main.js.map": "/react-startup/static/js/main.056758c3.chunk.js.map",
+    "runtime~main.js": "/react-startup/static/js/runtime~main.860644d8.js",
+    "runtime~main.js.map": "/react-startup/static/js/runtime~main.860644d8.js.map",
+    "static/js/2.9b7aa11c.chunk.js": "/react-startup/static/js/2.9b7aa11c.chunk.js",
+    "static/js/2.9b7aa11c.chunk.js.map": "/react-startup/static/js/2.9b7aa11c.chunk.js.map",
+    "index.html": "/react-startup/index.html",
+    "precache-manifest.13398adc9e28e2ccbf0f5fef61b22018.js": "/react-startup/precache-manifest.13398adc9e28e2ccbf0f5fef61b22018.js",
+    "service-worker.js": "/react-startup/service-worker.js",
+    "static/css/main.b782a6c3.chunk.css.map": "/react-startup/static/css/main.b782a6c3.chunk.css.map",
+    "static/media/admitere.jpg": "/react-startup/static/media/admitere.e03c595b.jpg",
+    "static/media/index.css": "/react-startup/static/media/bgbody.5118b508.jpg",
+    "static/media/frame.png": "/react-startup/static/media/frame.1c861c1d.png"
   }
 }
