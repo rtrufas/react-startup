@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.scss";
+import FooterContact from "../../Components/FooterContact/FooterContact";
 import cladire from "../../Assets/Images/cladire.jpg";
 import admitere from "../../Assets/Images/admitere.jpg";
 import logo_liceu from "../../Assets/Images/logo_liceu.jpg";
@@ -187,6 +188,8 @@ export default class Home extends React.Component {
             0256-213108)
           </div>
         </div>
+
+        <FooterContact />
       </div>
     );
   }

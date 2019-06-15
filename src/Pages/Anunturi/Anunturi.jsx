@@ -1,5 +1,6 @@
 import React from "react";
 import "./Anunturi.scss";
+import FooterContact from "../../Components/FooterContact/FooterContact";
 import QR from "../../Assets/Images/frame.png";
 
 export default class Anunturi extends React.Component {
@@ -73,6 +74,8 @@ export default class Anunturi extends React.Component {
           acordã-i un calificativ.Ce lecturã a fost mai interesantã?
         </p>
         <img src={QR} alt="QR Code" className="qr-code" />
+
+        <FooterContact />
       </div>
     );
   }

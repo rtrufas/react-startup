@@ -1,5 +1,6 @@
 import React from "react";
 import "./StudentInfo.scss";
+import FooterContact from "../../Components/FooterContact/FooterContact";
 
 export default class StudentInfo extends React.Component {
   render() {
@@ -65,6 +66,8 @@ export default class StudentInfo extends React.Component {
           </p>
           Clasa a XIII-a SERAL – 06.05.2019
         </div>
+
+        <FooterContact />
       </div>
     );
   }

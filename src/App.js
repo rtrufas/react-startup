@@ -2,7 +2,6 @@ import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import "./App.scss";
 import HeaderContainer from "./Components/Header/HeaderContainer";
-import FooterContact from "./Components/FooterContact/FooterContact";
 import Home from "./Pages/Home/Home";
 import StudentInfo from "./Pages/StudentInfo/StudentInfo";
 import Anunturi from "./Pages/Anunturi/Anunturi";
@@ -20,7 +19,6 @@ function App() {
         <Route path="/contact" component={Contacts} />
         <Route path="*" render={() => <div> 404 </div>} />
       </Switch>{" "}
-      <FooterContact />
     </>
   );
 }
