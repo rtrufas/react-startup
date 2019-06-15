@@ -12,13 +12,17 @@ function App() {
     <>
       <HeaderContainer />
       <Switch>
-        <Route exact path="/" render={() => <Redirect to="/acasa" />} />{" "}
+        <Route
+          exact
+          path={process.env.PUBLIC_URL + "/"}
+          render={() => <Redirect to="/acasa" />}
+        />
         <Route path="/acasa" component={Home} />
         <Route path="/informatii-elevi" component={StudentInfo} />
         <Route path="/anunturi" component={Anunturi} />
         <Route path="/contact" component={Contacts} />
         <Route path="*" render={() => <div> 404 </div>} />
-      </Switch>{" "}
+      </Switch>
     </>
   );
 }
