@@ -12,11 +12,7 @@ function App() {
     <>
       <HeaderContainer />
       <Switch>
-        <Route
-          exact
-          path={process.env.PUBLIC_URL + "/"}
-          render={() => <Redirect to="/acasa" />}
-        />
+        <Route exact path={"/"} render={() => <Redirect to="/acasa" />} />
         <Route path="/react-startup" component={Home} />
         <Route path="/acasa" component={Home} />
         <Route path="/informatii-elevi" component={StudentInfo} />
