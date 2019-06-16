@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "https://rtrufas.github.io/react-startup/static/css/main.12755d91.chunk.css",
-    "main.js": "https://rtrufas.github.io/react-startup/static/js/main.f82c462c.chunk.js",
-    "main.js.map": "https://rtrufas.github.io/react-startup/static/js/main.f82c462c.chunk.js.map",
-    "runtime~main.js": "https://rtrufas.github.io/react-startup/static/js/runtime~main.aa96c8d7.js",
-    "runtime~main.js.map": "https://rtrufas.github.io/react-startup/static/js/runtime~main.aa96c8d7.js.map",
-    "static/js/2.9b7aa11c.chunk.js": "https://rtrufas.github.io/react-startup/static/js/2.9b7aa11c.chunk.js",
-    "static/js/2.9b7aa11c.chunk.js.map": "https://rtrufas.github.io/react-startup/static/js/2.9b7aa11c.chunk.js.map",
-    "index.html": "https://rtrufas.github.io/react-startup/index.html",
-    "precache-manifest.8f09c9990e0362afde171fe9c723d858.js": "https://rtrufas.github.io/react-startup/precache-manifest.8f09c9990e0362afde171fe9c723d858.js",
-    "service-worker.js": "https://rtrufas.github.io/react-startup/service-worker.js",
-    "static/css/main.12755d91.chunk.css.map": "https://rtrufas.github.io/react-startup/static/css/main.12755d91.chunk.css.map",
-    "static/media/admitere.jpg": "https://rtrufas.github.io/react-startup/static/media/admitere.e03c595b.jpg",
-    "static/media/index.css": "https://rtrufas.github.io/react-startup/static/media/bgbody.5118b508.jpg",
-    "static/media/frame.png": "https://rtrufas.github.io/react-startup/static/media/frame.1c861c1d.png"
+    "main.css": "/react-startup/static/css/main.b782a6c3.chunk.css",
+    "main.js": "/react-startup/static/js/main.a616b585.chunk.js",
+    "main.js.map": "/react-startup/static/js/main.a616b585.chunk.js.map",
+    "runtime~main.js": "/react-startup/static/js/runtime~main.860644d8.js",
+    "runtime~main.js.map": "/react-startup/static/js/runtime~main.860644d8.js.map",
+    "static/js/2.9b7aa11c.chunk.js": "/react-startup/static/js/2.9b7aa11c.chunk.js",
+    "static/js/2.9b7aa11c.chunk.js.map": "/react-startup/static/js/2.9b7aa11c.chunk.js.map",
+    "index.html": "/react-startup/index.html",
+    "precache-manifest.18f98a03fa75289f581e2605d9c5214e.js": "/react-startup/precache-manifest.18f98a03fa75289f581e2605d9c5214e.js",
+    "service-worker.js": "/react-startup/service-worker.js",
+    "static/css/main.b782a6c3.chunk.css.map": "/react-startup/static/css/main.b782a6c3.chunk.css.map",
+    "static/media/admitere.jpg": "/react-startup/static/media/admitere.e03c595b.jpg",
+    "static/media/index.css": "/react-startup/static/media/bgbody.5118b508.jpg",
+    "static/media/frame.png": "/react-startup/static/media/frame.1c861c1d.png"
   }
 }
