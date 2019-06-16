@@ -21,3 +21,85 @@ a {
     text-decoration: underline;
   }
 }
+
+@media (max-width: 575.98px) {
+  header {
+    h6 {
+      display: none;
+    }
+    .header-navigation {
+      display: flex;
+      flex-direction: column;
+      .nav-link {
+        border-left: 1px solid black;
+      }
+    }
+  }
+
+  .anunturi-page,
+  .contacts-page,
+  .home-page,
+  .student-info-page {
+    width: auto !important;
+  }
+  .anunturi-page {
+    .qr-code {
+      display: flex;
+      margin: 0 auto;
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .anunturi-page,
+  .contacts-page,
+  .home-page,
+  .student-info-page {
+    width: auto !important;
+  }
+
+  .home-page {
+    &__text-container {
+      margin: 0 auto;
+      flex-direction: column;
+      max-width: 400px;
+      text-align: center;
+      .left,
+      .right {
+        width: 100% !important;
+      }
+    }
+  }
+
+  .contacts-page {
+    &__container {
+      margin: 0 auto;
+      flex-direction: column;
+      .contacts-page__right {
+        margin: 10px;
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .anunturi-page,
+  .contacts-page,
+  .home-page,
+  .student-info-page {
+    width: auto !important;
+  }
+
+  .home-page {
+    &__imagini-container {
+      flex-direction: column;
+      max-width: 300px;
+      margin: 0 auto;
+      img {
+        margin: 10px;
+      }
+    }
+  }
+}
